@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Interactive Photo Gallery</h2>
+  
+<div id="image">
+    Hover over an image below to display here.
+</div>
+
+<div class="thumbnails">
+    <img src="https://via.placeholder.com/100x100?text=1" alt="Image 1" onmouseover="upDate(this)" onmouseout="undo()">
+    <img src="https://via.placeholder.com/100x100?text=2" alt="Image 2" onmouseover="upDate(this)" onmouseout="undo()">
+    <img src="https://via.placeholder.com/100x100?text=3" alt="Image 3" onmouseover="upDate(this)" onmouseout="undo()">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
